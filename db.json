@@ -1,0 +1,21 @@
+{
+    "users": [
+        {
+          "username": "Admin123",
+          "password": "1"
+        }
+    ],
+
+    "questions": [
+      {
+        "id": 1,
+        "questions": "Who is the president of America",
+        "A": "Buhari",
+        "B": "Trump",
+        "c": "Putin",
+        "answer": "Trump"
+      }
+    ]
+
+    
+}
