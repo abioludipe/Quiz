@@ -1,0 +1,21 @@
+h2 {
+    text-align: center;
+}
+
+.name-style {
+    width: 40%; 
+    margin:60px auto;
+}
+
+.drop-down {
+    padding-bottom: 20px;
+    width: 25%
+}
+
+.btn-block {
+    width: 100%;
+}
+
+#serial {
+    width: 20%;
+}
