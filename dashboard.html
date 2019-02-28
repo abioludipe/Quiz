@@ -32,12 +32,49 @@
                     </ul>
                     
                     <ul class="nav navbar-nav navbar-right">
-                      <li><a href="Admin.html">Login as Admin <i class="fas fa-user"></i></a></li>
+                      <li><a href="Admin.html">Logged in as Admin <i class="fas fa-user"></i></a></li>
                       
                     </ul>
                   </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
               </nav>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-3">
+                            <div class="button-group">
+                                    <button class = "btn btn-block btn-primary btn-lg"><a href = "#createForm">Create Questions</a></button>
+                                    <button class = "btn btn-block btn-primary btn-lg"><a href = "#createForm">Update Questions</a></button>
+                                    <button class = "btn btn-block btn-primary btn-lg"><a href = "#createForm">Delete Questions</a></button>
+                                    
+                                </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div id="createForm">
+                                    <h1 style="text-align: center;">Create Questions </h1>
+                                    <form id="form">
+                                            <div class= "form-group">
+                                                    <textarea class="form-control" rows="3" id="questiontext" placeholder="Enter the Question"></textarea>
+                                                </div>
+                                        <div class= "form-group">
+                                            <input class="form-control" type="text" id = "optionA" placeholder = "Option" required>
+                                        </div>
+                                        <div class= "form-group">
+                                                <input class="form-control" type="text" id = "optionB" placeholder = "Option" required>
+                                            </div>
+                                            <div class= "form-group">
+                                                    <input class="form-control" type="text" id = "optionC" placeholder = "Option" required>
+                                                </div>
+                                                <div class= "form-group">
+                                                        <input class="form-control" type="text" id = "answer" placeholder = "Correct Answer" required>
+                                                    </div>
+                                        <div class= "form-group">
+                                            <button id="submit" class="btn btn-block btn-primary">Submit</button>
+                                        </div>
+                                    </form>
+                            </div> 
+                        </div>
+                  </div>
+              </div>
               
 
               <script
