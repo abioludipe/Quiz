@@ -10,8 +10,7 @@ $('document').ready(function(){
             url: `http://localhost:3000/users?username=${username}&password=${password}`,
             success: function(data) {
                     window.location.assign(`dashboard.html?username=${username}`)
-            }
-                }
+                 }
         })
     })
 })
