@@ -1,5 +1,6 @@
-header {
-    background: url(https://cdn.pixabay.com/photo/2017/03/31/22/51/quiz-2192590_960_720.jpg);
+
+body {
+    background: url(https://images.unsplash.com/photo-1540835296355-c04f7a063cbb?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
     background-size: cover;
     background-position: center;
     font-family: lato;
@@ -11,11 +12,11 @@ html {
 
 #content {
     text-align: center;
-    padding-top: 30%;
+    padding-top: 15%;
 }
 
 h1, h3 {
-    color: black;
+    color: white;
     text-shadow: 1px 2px 5px rgba(233, 219, 219, 0.5);
     
 }
