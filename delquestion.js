@@ -1,5 +1,5 @@
 $('document').ready(function(){
-    $("#editquest").submit(function(e){
+    $("#delquest").submit(function(e){
         e.preventDefault()
         var questNo = $('#questNo').val()
         $.ajax({
