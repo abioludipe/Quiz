@@ -9,11 +9,35 @@
     "questions": [
       {
         "id": 1,
-        "questions": "Who is the president of America",
+        "question": "Who is the president of America",
         "A": "Buhari",
         "B": "Trump",
-        "c": "Putin",
+        "C": "Putin",
         "answer": "Trump"
+      },
+      {
+        "id": 1,
+        "question": "Which programming language is used to write this code",
+        "A": "Javascript",
+        "B": "Java",
+        "C": "Python",
+        "answer": "Javascript"
+      },
+      {
+        "id": 1,
+        "question": "Which Animal is the king of the Jungle",
+        "A": "Lion",
+        "B": "Goat",
+        "C": "Snake",
+        "answer": "Lion"
+      },
+      {
+        "id": 1,
+        "question": "Where is Decagon Institute",
+        "A": "Obanikoro",
+        "B": "Agege",
+        "C": "Obalende",
+        "answer": "Obanikoro"
       }
     ]
 
