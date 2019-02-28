@@ -1,0 +1,14 @@
+#question {
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    
+}
+
+#finishQuestion {
+    margin:auto 30px;
+}
+
+.container .question {
+    background-color:rgba(192, 201, 209, 0.877)
+}
