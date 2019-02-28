@@ -46,14 +46,14 @@
                             <div class="button-group">
                                     <button class = "btn btn-block btn-primary btn-lg"><a href = "dashboard.html">Create Questions</a></button>
                                     <button class = "btn btn-block btn-primary btn-lg"><a href = "updatequestion.html">Update Questions</a></button>
-                                    <button class = "btn btn-block btn-primary btn-lg"><a href = "#">Delete Questions</a></button>
+                                    <button class = "btn btn-block btn-primary btn-lg"><a href = "deletequestion.html">Delete Questions</a></button>
                                 </div>
                         </div>
-                        <h1 style="text-align: center;">Delete Questions </h1>
+                        <h1 style="text-align: center;">Edit Question </h1>
                         <div class="col-md-9">
                             <div id="createQuestion">
                                     
-                                    <form id = "delquest" class="form-inline">
+                                    <form style="margin-bottom: 80px;" id = "editquest" class="form-inline">
                                         <div class="form-group">
                                           <label class="sr-only">Question Number</label>
                                           <p class="form-control-static">Enter Question Number</p>
@@ -62,8 +62,29 @@
                                           <label for="questNo" class="sr-only">Password</label>
                                           <input type="text" class="form-control" id="questNo" placeholder="Question Number">
                                         </div>
-                                        <button type="submit" class="btn btn-danger">Delete Question</button>
+                                        <button type="submit" class="btn btn-success">Edit Question</button>
                                       </form>
+                            
+                                      <form id="popeditquest">
+                                            <div class= "form-group">
+                                                    <textarea class="form-control" rows="3" id="questiontext" name="question" placeholder="Enter the Question"></textarea>
+                                                </div>
+                                        <div class= "form-group">
+                                            <input class="form-control" type="text" id = "optionA" name="A" placeholder = "Option" required>
+                                        </div>
+                                        <div class= "form-group">
+                                                <input class="form-control" type="text" id = "optionB" name="B" placeholder = "Option" required>
+                                            </div>
+                                            <div class= "form-group">
+                                                    <input class="form-control" type="text" id = "optionC" name="C" placeholder = "Option" required>
+                                                </div>
+                                                <div class= "form-group">
+                                                        <input class="form-control" type="text" id = "answer" name="answer" placeholder = "Correct Answer" required>
+                                                    </div>
+                                        <div class= "form-group">
+                                            <button id="crquestion" class="btn btn-block btn-primary">Create Question</button>
+                                        </div>
+                                    </form>
                             </div> 
                         </div>
                   </div>
@@ -75,6 +96,6 @@
               integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="
               crossorigin="anonymous"></script> 
               <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-              <script src="delquestion.js"></script>
+              <script src="updatequestion.js"></script>
 </body>
 </html>
