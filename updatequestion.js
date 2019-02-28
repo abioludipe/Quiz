@@ -15,7 +15,6 @@ $('document').ready(function(){
         $("#popeditquest").submit(function(e){
             e.preventDefault()
             var questiondata = $(this).serialize()
-            console.log(questiondata)
             $.ajax({
                 type: 'PUT',
                 url: `http://localhost:3000/questions/${questNo}`,

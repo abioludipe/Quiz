@@ -13,39 +13,8 @@
       "C": "Ruby",
       "answer": "Javascript",
       "id": 2
-    },
-    {
-      "question": "Which Animal is the king of the Jungle",
-      "A": "Lion",
-      "B": "Goat",
-      "C": "Snake",
-      "answer": "Lion",
-      "id": 3
-    },
-    {
-      "question": "Where is Decagon Institute",
-      "A": "Obanikoro",
-      "B": "Agege",
-      "C": "Lekki",
-      "answer": "Obanikoro",
-      "id": 4
-    },
-    {
-      "question": "What is the capital of Nigeria?",
-      "A": "Abuja",
-      "B": "Lagos",
-      "C": "Lokoja",
-      "answer": "Abuja",
-      "id": 5
-    },
-    {
-      "question": "Which of this is not a programming language?",
-      "A": "Java",
-      "B": "B#",
-      "C": "C",
-      "answer": "PHP",
-      "id": 6
     }
+    
   ],
   "answers": []
 }
