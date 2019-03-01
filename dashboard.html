@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="Landing.css">
+    <link rel="stylesheet" type="text/css" href="dashboard.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <title>Admin Dashboard</title>
+</head>
+<body>
+        <nav class="navbar navbar-default">
+                <div class="container">
+                  <!-- Brand and toggle get grouped for better mobile display -->
+                  <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Quizzy</a>
+                  </div>
+              
+                  <!-- Collect the nav links, forms, and other content for toggling -->
+                  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                      
+                      <li><a href="Landing.html">Home</a></li>
+                    </ul>
+                    
+                    <ul class="nav navbar-nav navbar-right">
+                      <li><a href="Admin.html">Logged in as Admin <i class="fas fa-user"></i></a></li>
+                      
+                    </ul>
+                  </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+              </nav>
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-3">
+                            <div class="button-group">
+                                    <button class = "btn btn-block btn-primary btn-lg"><a href = "#createQuestion">Create Questions</a></button>
+                                    <button class = "btn btn-block btn-primary btn-lg"><a href = "updatequestion.html">Update Questions</a></button>
+                                    <button class = "btn btn-block btn-primary btn-lg"><a href = "deletequestion.html">Delete Questions</a></button>
+                                    
+                                </div>
+                        </div>
+                        <div class="col-md-9">
+                            <div id="createQuestion">
+                                    <h1 style="text-align: center;">Create Questions </h1>
+                                    <form id="form">
+                                            <div class= "form-group">
+                                                    <textarea class="form-control" rows="3" id="questiontext" placeholder="Enter the Question"></textarea>
+                                                </div>
+                                        <div class= "form-group">
+                                            <input class="form-control" type="text" id = "optionA" placeholder = "Option" required>
+                                        </div>
+                                        <div class= "form-group">
+                                                <input class="form-control" type="text" id = "optionB" placeholder = "Option" required>
+                                            </div>
+                                            <div class= "form-group">
+                                                    <input class="form-control" type="text" id = "optionC" placeholder = "Option" required>
+                                                </div>
+                                                <div class= "form-group">
+                                                        <input class="form-control" type="text" id = "answer" placeholder = "Correct Answer" required>
+                                                    </div>
+                                        <div class= "form-group">
+                                            <button id="crquestion" class="btn btn-block btn-primary">Create Question</button>
+                                        </div>
+                                    </form>
+                            </div> 
+                        </div>
+                  </div>
+              </div>
+              
+
+              <script
+              src="https://code.jquery.com/jquery-2.1.4.min.js"
+              integrity="sha256-8WqyJLuWKRBVhxXIL1jBDD7SDxU936oZkCnxQbWwJVw="
+              crossorigin="anonymous"></script> 
+              <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+              <script src="createquestion.js"></script>
+</body>
+</html>
