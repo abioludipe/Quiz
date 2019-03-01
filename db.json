@@ -8,13 +8,21 @@
   "questions": [
     {
       "question": "Which programming language is used to write this code",
-      "A": "Javascript",
-      "B": "Java",
+      "A": "Java",
+      "B": "Javascript",
       "C": "Ruby",
       "answer": "Javascript",
       "id": 2
+    },
+
+    {
+      "question": "Which programming language is used to write this code",
+      "A": "Python",
+      "B": "C#",
+      "C": "Ruby",
+      "answer": "Python",
+      "id": 3
     }
-    
   ],
   "answers": []
 }
