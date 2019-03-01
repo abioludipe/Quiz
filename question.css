@@ -12,3 +12,7 @@
 .container .question {
     background-color:rgba(192, 201, 209, 0.877)
 }
+
+.correct {
+    display: none;
+}
