@@ -14,11 +14,12 @@
       "answer": "Javascript",
       "id": 2
     },
+
     {
       "question": "Which programming language is used to write this code",
       "A": "Python",
       "B": "C#",
-      "C": "Perl",
+      "C": "Ruby",
       "answer": "Python",
       "id": 3
     }

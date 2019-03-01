@@ -16,3 +16,15 @@
 .correct {
     display: none;
 }
+
+.green {
+    background-color: green;
+}
+
+.red {
+    background-color: red;
+}
+
+#final {
+    font-size: 20px
+}

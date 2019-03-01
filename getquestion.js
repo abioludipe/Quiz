@@ -7,7 +7,7 @@ $(document).ready(function(){
             var count = 0
             $.each(data, function(i, item){
                 count++
-                question.append('<p><strong> ' + count + ')  ' + item.question + '</strong></p><p><input class = "options" type = "radio" name= '+ item.id +' value = '+ item.A + '> A   ' + item.A +'</p><p><input class = "options" type = "radio" name= '+ item.id +' value = '+ item.B + '> B    ' + item.B +'</p><p><input class = "options" type = "radio" name='+ item.id +' value = '+ item.C + '> C    '+ item.C +'</p><p><input class = "correct" type = radio name= ' + item.id +' value = '+ item.answer + '></p><p class = "final"></p>')
+                question.append('<p><strong> ' + count + ')  ' + item.question + '</strong></p><p><input class = "options" type = "radio" name= '+ item.id +' value = '+ item.A + '> A   ' + item.A +'</p><p><input class = "options" type = "radio" name= '+ item.id +' value = '+ item.B + '> B    ' + item.B +'</p><p><input class = "options" type = "radio" name='+ item.id +' value = '+ item.C + '> C    '+ item.C +'</p><p><input class = "correct" type = radio name= ' + item.id +' value = '+ item.answer + '></p>')
             })
         },
         error: function(){
@@ -27,19 +27,26 @@ $(document).ready(function(){
                     guestAnswer.push(guestOptions[i].value)
                 } 
             }
+
+                var total = 0
+                var correct = 0
+                var msg = ""
             for (var i = 0; i< corretAnswer.length; i++) {
                 correctArray.push(corretAnswer[i].value)
             }   
 
             for (var i = 0; i< correctArray.length;i++){
-                var msg = ""
+                total++
+                
                     if (guestAnswer[i] == correctArray[i]) {
-                        msg =  "Correct     " + correctArray[i]     
+                        correct++
+                          
                     }
                     else {
-                        msg = "Wrong     " + correctArray[i]
-                }
-                $(".final").html(msg)
+                        
+                }  
             }
+            msg = correct + '/' + total
+            $("#final").html(msg)
     })
 })
